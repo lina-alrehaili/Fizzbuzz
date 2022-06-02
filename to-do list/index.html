@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>To-do list</title>
+        <link rel="stylesheet" type="text/css" href="style.css" />
+    </head>
+    <body>
+        <!-- To-do list section -->
+        <div id="to-do">
+            <div id="todo-header">
+                <h1>My Skills</h1>
+                <div>
+                    <form id="form">
+                        <div id="todo-search">
+                            <input type="text" class="input" id="input" placeholder="Enter skill name" autocomplete="off">
+                            <button onclick="todoAdd()">Add Skill</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="todo-list">
+                <ol class="added" id="added"></ol>
+            </div>
+        </div>
+        <script src="script.js"></script>
+    </body>
+</html>

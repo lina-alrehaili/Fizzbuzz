@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Comic Sans MS, Comic Sans, cursive;
+}
+
+#to-do {
+    margin-top: 70px;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 30px;
+    background-color: #3f3d5a;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 70px;
+}
+
+#todo-header {
+    color: #f4f3dc;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+#todo-search {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+}
+
+#todo-search button {
+    background-color: rgb(254, 166, 103);
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px black;
+    width: 130px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 20px;
+    font-size: large;
+}
+
+#todo-search .input {
+    font-size: large;
+    padding: 10px;
+    width: 400px;
+    border: 3px solid black;
+    box-shadow: 4px 4px 4px black;
+
+}
+
+.todo-list {
+    background-color: #f4f3dc;
+
+    width: 100%;
+}
+
+.added {
+    margin-left: 50px;
+}
+
+.added li {
+    position: relative;
+    color: #3f3d5a;
+    cursor: pointer;
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+}
+
+.added li.checked {
+    background-color: rgb(254, 166, 103);
+    color: #9a99aa;
+    text-decoration: line-through;
+}
